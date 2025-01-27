@@ -3,13 +3,13 @@ Jarvis - Python Voice Assistant
 Overview
 Jarvis is a Python-powered voice assistant capable of performing tasks through voice commands. It supports functionalities such as opening websites, playing music, fetching news, and interacting with OpenAI's GPT model for natural language responses.
 
-Features
+**Features**
 Voice Activation: Triggered by the wake word "Jarvis."
 Web Automation: Opens popular websites like Google, YouTube, Facebook, and LinkedIn.
 Music Playback: Plays songs from a predefined library.
 News Updates: Fetches top headlines using NewsAPI.
 AI Integration: Leverages OpenAI's GPT model for intelligent responses.
-Installation
+**Installation**
 Clone the repository:
 bash
 Copy
