@@ -10,22 +10,22 @@ Music Playback: Plays songs from a predefined library.
 News Updates: Fetches top headlines using NewsAPI.
 AI Integration: Leverages OpenAI's GPT model for intelligent responses.
 **Installation**
-Clone the repository:
+**Clone the repository**:
 bash
 Copy
 Edit
 git clone https://github.com/yashtaksale/Jarvis-A-Python-Based-Virtual-Assistant.git
 cd Jarvis-A-Python-Based-Virtual-Assistant
-Install the dependencies:
-bash
+**Install the dependencies:
+**bash
 Copy
 Edit
 pip install -r requirements.txt
-Add your API keys:
+**Add your API keys**:
 Replace newsapi with your NewsAPI key.
 Replace the OpenAI API key with your key in the aiProcess function.
 Usage
-Run the script:
+**Run the script:**
 bash
 Copy
 Edit
@@ -37,7 +37,7 @@ Give commands such as:
 "Show me the news"
 Requirements
 Python 3.7 or higher
-Libraries:
+**Libraries**:
 speech_recognition
 pyttsx3
 gTTS
