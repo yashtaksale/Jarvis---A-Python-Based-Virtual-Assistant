@@ -11,7 +11,7 @@ import os
 
 recognizer = sr.Recognizer()
 engine = pyttsx3.init()
-newsapi = "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"
+newsapi = "<enter your key>"
 
 def speak_old(text):
     engine.say(text)
@@ -35,7 +35,7 @@ def speak(text):
 
 def aiProcess(command):
     try:
-        client = openai(api_key="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")
+        client = openai(api_key="<enter your key")
 
         completion = client.chat.completions.create(
             model="gpt-3.5-turbo",
